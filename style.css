@@ -1,0 +1,61 @@
+.container {
+  width: 320px;
+  height: 500px;
+  background-image: linear-gradient(red, blue);
+  margin: 100px auto;
+  border-radius: 20px;
+  border: 5px solid black;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.container img {
+  display: block;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  margin: 20px auto;
+}
+
+.container h2 {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+.container .link {
+  font-size: 20px;
+  font-weight: 200px;
+}
+
+.container .link a {
+  background-color: white;
+  display: inline-block;
+  width: 300px;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  animation: animasi 5s Infinite;
+}
+
+footer {
+  text-transform: capitalize;
+  margin-top: 70px;
+  padding: 3px;
+  text-align: center;
+  color: white;
+}
+
+@keyframes animasi {
+  from {
+    background-color: white;
+    color: black;
+  }
+  
+  to {
+    background-color: black;
+    color: white;
+  }
+}
